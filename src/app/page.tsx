@@ -1,5 +1,21 @@
-import DashboardFeature from '@/components/dashboard/dashboard-feature'
+'use client'
+import DashboardFeature from '@/components/dashboard/dashboard-feature';
+import React, { useState } from 'react';
+import Button from '@/components/diary/Button';
 
 export default function Page() {
-  return <DashboardFeature />
+  const handleClick = () => {
+    // Handle the button click here
+    console.log('Button clicked!');
+  };
+
+  return (
+    <>
+      <DashboardFeature />
+      <Button onClick={handleClick} label="Click me" />
+    </>
+  );
 }
+
+
+

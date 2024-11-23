@@ -2,6 +2,7 @@
 
 import { AppHero } from '../ui/ui-layout'
 
+
 const links: { label: string; href: string }[] = [
   { label: 'Solana Docs', href: 'https://docs.solana.com/' },
   { label: 'Solana Faucet', href: 'https://faucet.solana.com/' },
@@ -29,3 +30,5 @@ export default function DashboardFeature() {
     </div>
   )
 }
+
+

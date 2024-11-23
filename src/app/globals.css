@@ -17,3 +17,28 @@ body {
 .wallet-adapter-button {
     font-family: inherit !important;
 }
+.button-container {
+    display: flex;
+    justify-content: center; /* Center the buttons horizontally */
+    align-items: center; /* Center the buttons vertically*/
+    height: 100vh;
+    gap: 140px;
+  }
+  
+  button {
+    /* Base styles for all buttons */
+    padding: 40px 80px;
+    border-radius: 5px;
+    border: 2px solid black; /* Add a 2px black border */
+    background-color: white; /* Fill color inside the border */
+    cursor: pointer;
+    font-size: 30px;
+    font-weight: bold;
+}
+  
+  button:hover {
+    background-color: #777373;
+  }
+
+
+  
